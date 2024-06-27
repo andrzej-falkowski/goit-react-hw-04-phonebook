@@ -1,0 +1,16 @@
+.filterWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+
+.inputFilter {
+  border-radius: 5px;
+  padding-left: 5px;
+  width: 200px;
+  height: 25px;
+  border: none;
+}
