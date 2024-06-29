@@ -19,9 +19,10 @@ const Filter = ({ value, handleChange }) => {
     </div>
   );
 };
-export default Filter;
 
 Filter.propTypes = {
   value: PropTypes.string,
   handleChange: PropTypes.func,
 };
+
+export default Filter;

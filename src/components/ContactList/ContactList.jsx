@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import styles from "./ContactList.module.css";
 
 const ContactList = ({ filter, contacts, removeContact }) => {
+  console.log(contacts)
   return (
     <>
       <ul className={styles.contactsList}>
@@ -25,7 +26,6 @@ const ContactList = ({ filter, contacts, removeContact }) => {
   );
 };
 
-export default ContactList;
 
 ContactList.propTypes = {
   contacts: PropTypes.arrayOf(
@@ -37,3 +37,5 @@ ContactList.propTypes = {
   ),
   removeContact: PropTypes.func,
 };
+
+export default ContactList;
