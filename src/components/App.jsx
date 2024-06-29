@@ -33,8 +33,8 @@ function App() {
 
   };
 
-  const handleFilter = (e) => {
-    const filter = e.currentTarget.value;
+  const handleFilter = (event) => {
+    const filter = event.currentTarget.value;
     console.log(filter)
     setFilter(filter);
   };
