@@ -2,7 +2,7 @@
   "name": "react-playground",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/andrzej-falkowski/goit-react-hw-03-phonebook",
+  "homepage": "https://github.com/andrzej-falkowski/goit-react-hw-04-phonebook",
   "type": "module",
   "scripts": {
     "dev": "vite",
